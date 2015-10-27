@@ -1,12 +1,13 @@
 #Fluxer
 project/*
-source/source/js/*
+fluxer/source/js/*
+fluxer/.node_module
 
 #VIM
 #[a-w][a-z]
 [._]s[a-w][a-z]
 *.un~
-Session.vim
+Session.vimgco mv s
 .netrwhist
 *~
 

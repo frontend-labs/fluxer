@@ -6,5 +6,5 @@ node:
     - '3001:3001'
   command: bash init.sh
   volumes:
-   - ./source:/usr/src/app:rw
+   - ./fluxer:/usr/src/app:rw
    - ./project/web/public/statics:/usr/src/app/statics:rw
