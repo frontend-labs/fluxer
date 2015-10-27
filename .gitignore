@@ -1,5 +1,9 @@
+#Fluxer
+project/*
+source/source/js/*
+
 #VIM
-[a-w][a-z]
+#[a-w][a-z]
 [._]s[a-w][a-z]
 *.un~
 Session.vim
