@@ -1,0 +1,10 @@
+node:
+  build: ./docker-fluxer
+  ports:
+    - '3000:3000'
+    - '3030:3030'
+    - '3001:3001'
+  volumes:
+   - ./src/fluxer/config:/usr/src/app/config:rw
+   - ./src/fluxer/source:/usr/src/app/source:rw
+   - ./src/public/statics:/usr/src/app/statics:rw
