@@ -1,0 +1,14 @@
+include ../_config/page
+include ../_mixins/mixins
+doctype html
+//-+htmlIe()
+html(lang="#{page.lang}", xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#")
+	include _partials/head
+	include _partials/head_scripts
+	body
+		include _render/header
+		//- -- --
+		block content
+		//- -- --
+		include _render/footer
+		include _partials/footer_scripts
