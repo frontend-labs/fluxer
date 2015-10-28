@@ -1,0 +1,9 @@
+node:
+  build: ./docker
+  ports:
+    - '3000:3000'
+    - '4000:4000'
+    - '3001:3001'
+  volumes:
+   - ./flux/frontend:/usr/src/app/frontend:rw
+   - ./project/web/public:/usr/src/app/public:rw
