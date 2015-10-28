@@ -7,7 +7,7 @@ fluxer/.node_module
 #[a-w][a-z]
 [._]s[a-w][a-z]
 *.un~
-Session.vimgco mv s
+Session.vim
 .netrwhist
 *~
 

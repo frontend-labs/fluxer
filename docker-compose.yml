@@ -2,9 +2,8 @@ node:
   build: ./docker
   ports:
     - '3000:3000'
-    - '3030:3030'
+    - '4000:4000'
     - '3001:3001'
-  command: bash init.sh
   volumes:
-   - ./fluxer:/usr/src/app:rw
-   - ./project/web/public/statics:/usr/src/app/statics:rw
+   - ./flux/frontend:/usr/src/app/frontend:rw
+   - ./project/web/public:/usr/src/app/public:rw
